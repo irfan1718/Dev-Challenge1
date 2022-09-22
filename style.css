@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  height: 70vh;
+}
+h3 {
+  margin: 10px 0px 0px 50px;
+}
+
+.main {
+  display: flex;
+  width: 500;
+}
+
+#page-notfound {
+  width: 35%;
+  margin: 80px 0px 0px 100px;
+}
+
+.container {
+  margin: 80px 50px 0px 50px;
+}
+
+h1 {
+  font: inherit;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p {
+  font: inherit;
+  margin-top: 50px;
+  color: gray;
+  font-size: 15px;
+  font-weight: lighter;
+  word-spacing: 25px;
+}
+
+#btn {
+  margin-top: 50px;
+  background: #333333;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+footer{
+display: flex;
+align-items:center;
+justify-content: center;
+margin-top: 5rem;
+
+}
+
+footer small{
+  color: #858585d8;
+}
+
+@media screen and (max-width: 956px) {
+  h3 {
+    height: 60px;
+    margin-left: 25px;
+  }
+
+  .main {
+    flex-direction: column;
+    margin: 0;
+    width:auto
+
+  }
+
+  .main #page-notfound {
+    width: 350px;
+    padding: 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .main .container {
+    /* width: auto; */
+    padding-left: 2em;
+  }
+
+  .main .container h1 {
+    font-size: 48px;
+  }
+
+  .main .container p {
+    width: 85%;
+    font-size: 18px;
+  }
+
+
+}
